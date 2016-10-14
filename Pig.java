@@ -1,19 +1,19 @@
 class Pig implements Animal 
 {     
      //your code here
-		private string mySound()
-	private string myType()
-	public Pig(string Sound, string Type)
+	private String mySound;
+	private String myType;
+	public Pig(String Type, String Sound)
 	{
-		mySound = sound;
-		myType = type;
+		mySound = Sound;
+		myType = Type;
 	}  
-	public Pig()
+	public String getSound()
 	{
-		mySound = "unkown";
-		myType = "unkown"
+		return mySound;
 	}
-	public String mySound(){return mySound;}
-	public String myType(){return myType;}
-}
+	public String getType()
+	{
+		return myType;
+	}
 }
