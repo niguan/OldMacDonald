@@ -4,9 +4,9 @@ class Farm
    private Animal [] aBunchOfAnimals = new Animal[3];    
    public Farm()     
    {       
-      aBunchOfAnimals[0] = new NamedCow("cow","moo","Elsie");           
-      aBunchOfAnimals[1] = new Chick("chick","cluck");       
-      aBunchOfAnimals[2] = new Pig("pig","oink");    
+      aBunchOfAnimals[0] = new NamedCow("Cow","moo!","Elsie");           
+      aBunchOfAnimals[1] = new Chick("Chick","cheep!","cluck!");       
+      aBunchOfAnimals[2] = new Pig("Pig","oink!");    
   }         
    public void animalSounds()    
    {       

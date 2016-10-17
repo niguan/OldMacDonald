@@ -1,8 +1,8 @@
 class Cow implements Animal 
 {     
      //your code here
-	protected String mySound;
 	protected String myType;
+	protected String mySound;
 	public Cow(String Type, String Sound)
 	{
 		myType = Type;
@@ -12,12 +12,12 @@ class Cow implements Animal
 	{
 		
 	}
-	public String getSound()
-	{
-		return mySound;
-	}
 	public String getType()
 	{
 		return myType;
+	}
+	public String getSound()
+	{
+		return mySound;
 	}
 }

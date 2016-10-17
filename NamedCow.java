@@ -1,10 +1,10 @@
 class NamedCow extends Cow
 {
 	private String myName;
-	public NamedCow(String Sound, String Type, String Name)
+	public NamedCow(String Type, String Sound,String Name)
 	{
-		mySound = Sound;
 		myType = Type;
+		mySound = Sound;
 		myName = Name;
 	}
 	public String getName()
